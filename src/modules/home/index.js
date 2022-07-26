@@ -39,7 +39,7 @@ const HomeComponent = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
         useEffect(() => handleCalculateBalance() , [transactions])
     return(
-        <Container>HomeComponent
+        <Container>
             <OverViewComponent handleAddTransaction = {handleAddTransaction}  income ={income} expense = {expense}/>
             <TransactionComponent transactions ={transactions} />
         </Container>
