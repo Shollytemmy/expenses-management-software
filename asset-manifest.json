@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expenses-management-software/static/css/main.e6c13ad2.css",
+    "main.js": "/expenses-management-software/static/js/main.d5da4a44.js",
+    "index.html": "/expenses-management-software/index.html",
+    "main.e6c13ad2.css.map": "/expenses-management-software/static/css/main.e6c13ad2.css.map",
+    "main.d5da4a44.js.map": "/expenses-management-software/static/js/main.d5da4a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d5da4a44.js"
+  ]
+}
