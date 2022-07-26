@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components'
+import HomeComponent from './modules/home';
+
+
+const Container = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 1rem 8px;
+font-family: 'Montserrat', sans-serif;
+`;
+
+const Header = styled.span`
+font-size: 25px;
+font-weight: bold;
+
+`;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Container>
+    <Header>Expenses Management Software</Header>
+    <HomeComponent />
+   
+  </Container>
+  
 }
 
 export default App;
